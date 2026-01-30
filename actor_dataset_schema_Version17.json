@@ -1,0 +1,45 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": ["address", "price", "beds", "baths", "area", "zpid", "url"]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "address": {
+                        "label": "Address",
+                        "format": "text"
+                    },
+                    "price": {
+                        "label": "Price",
+                        "format": "text"
+                    },
+                    "beds": {
+                        "label": "Beds",
+                        "format": "text"
+                    },
+                    "baths": {
+                        "label": "Baths",
+                        "format": "text"
+                    },
+                    "area": {
+                        "label": "Area (sqft)",
+                        "format": "text"
+                    },
+                    "zpid": {
+                        "label": "ZPID",
+                        "format": "text"
+                    },
+                    "url": {
+                        "label": "URL",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}

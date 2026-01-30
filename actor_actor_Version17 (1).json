@@ -1,0 +1,17 @@
+{
+    "actorSpecification": 1,
+    "name": "Zillow Alternative Data scraper",
+    "title": "Zillow Alternative Data scraper",
+    "description": "Zillow Alternative Data scraper",
+    "version": "0.0",
+    "meta": {
+        "templateId": "ai-generated-actor",
+        "generatedBy": "Gpt-4o-mini"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "storages": {
+        "dataset": "./dataset_schema.json"
+    },
+    "dockerfile": "../Dockerfile"
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Input schema of the Zillow Alternative Data scraper",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "startUrls": {
+            "title": "Start URLs",
+            "type": "array",
+            "description": "URLs to start crawling from (listing pages, property pages or search result pages).",
+            "editor": "requestListSources",
+            "prefill": [
+                {
+                    "url": "https://www.zillow.com/homes/for_sale/"
+                }
+            ]
+        },
+        "maxRequestsPerCrawl": {
+            "title": "Max Requests per Crawl",
+            "type": "integer",
+            "description": "Maximum number of requests that can be made by this crawler.",
+            "default": 100
+        }
+    }
+}
